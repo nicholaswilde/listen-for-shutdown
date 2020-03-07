@@ -1,6 +1,8 @@
 # rpi-power-button
 
-Combined Power on / off Button for Raspberry Pi
+Combined Power on (GPIO3) / off (GPIO24) Button for Raspberry Pi
+
+By default, the software assumes the switch is connected to pin BCM 24. The pin can be changed in the Python source file.
 
 ## Installation
 
@@ -10,7 +12,7 @@ Combined Power on / off Button for Raspberry Pi
 
 ## Uninstallation
 
-If you need to uninstall the power button script in order to use GPIO3 for another project or something:
+If you need to uninstall the power button script:
 
 1. Run the uninstall script: `./pi-power-button/script/uninstall`
 
