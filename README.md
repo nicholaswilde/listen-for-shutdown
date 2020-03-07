@@ -1,7 +1,9 @@
 # rpi-power-button
 
-Combined Power on (GPIO3) / off (GPIO24) Button for Raspberry Pi
+Combined Power on / off Button for Raspberry Pi
 
+You can wire GPIO 3 and a second GPIO connected together and to ground through a switch
+Using GPIO 3 for power up and second GPIO for shutdown
 By default, the software assumes the switch is connected to pin BCM 24. The pin can be changed in the Python source file.
 
 ## Installation
