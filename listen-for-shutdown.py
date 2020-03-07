@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-
-import RPi.GPIO as GPIO
+from gpiozero import Button
+from signal import pause
 import subprocess
 
+def longpress():
+    subprocess.call(['shutdown', '-h', 'now'], shell=False)
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(3, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-GPIO.wait_for_edge(3, GPIO.FALLING)
-
-subprocess.call(['shutdown', '-h', 'now'], shell=False)
+button = Button(24, hold_time=2)
+button.when_held = longpress
+pause()
