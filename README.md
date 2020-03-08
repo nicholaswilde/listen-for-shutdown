@@ -20,8 +20,6 @@ If you need to uninstall the power button script:
 
 ## Hardware
 
-A full list of what you'll need can be found [here](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi#parts-list). At a minimum, you'll need a normally-open (NO) power button, some jumper wires, and a soldering iron. If you _don't_ have a soldering iron or don't feel like breaking it out, you can use [this prebuilt button](https://howchoo.com/shop/product/prebuilt-raspberry-pi-power-button) instead.
-
 Connect the power button to Pin 5 (BCM3 - SCL) and Pin 18 (BCM24) and any GND Pin shown in this diagram:
 
 ![Connection Diagram](https://raw.githubusercontent.com/lihak/pi-power-button/master/diagrams/pinout.png)
