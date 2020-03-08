@@ -9,7 +9,7 @@ By default, the software assumes the switch is connected to pin BCM 24. The pin 
 ## Installation
 
 1. [Connect to your Raspberry Pi via SSH](https://howchoo.com/g/mgi3mdnlnjq/how-to-log-in-to-a-raspberry-pi-via-ssh)
-1. Clone this repo: `git clone https://github.com/lihak/pi-power-button.git`
+1. Clone this repo: `git clone https://github.com/lihak/rpi-power-button.git`
 1. Run the setup script: `./rpi-power-button/script/install`
 
 ## Uninstallation
