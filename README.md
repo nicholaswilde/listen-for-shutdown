@@ -1,6 +1,6 @@
-# rpi-power-button
+# Listen For Shutdown
 
-Combined Power on / off Button for Raspberry Pi
+A combined power on / off Button for the [Turing Pi](https://turingpi.com/)
 
 You can wire GPIO 3 and a second GPIO connected together and to ground through a switch
 Using GPIO 3 for power up and second GPIO for shutdown.
